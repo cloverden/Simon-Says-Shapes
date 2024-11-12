@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Red border for mistake visual cue */
+#gameScreen.red-border {
+    border: 3px solid red;
+}
+
+.table{
+    width: 1000%;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Says Shapes</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <a href="#home" onclick="showPage('home')">Home</a>
+        <a href="#instructions" onclick="showPage('instructions')">Instructions</a>
+        <a href="#game" onclick="showPage('game')">Game</a>
+    </nav>
+
+    <div id="home" class="page">
+        <h1>Welcome to Simon Says Shapes</h1>
+        <input type="text" id="playerName" placeholder="Enter your name">
+        <button onclick="savePlayerName()">Save Name</button>
+        <div>
+            <table class="table">
+                <tr>
+                  <th>Player's name</th>
+                  <th>Round</th>
+                  <th>Highest score</th>
+                </tr>
+                <tr>
+                  <td>Avin</td>
+                  <td>sfa</td>
+                  <td>Jixian</td>
+                </tr>
+                <tr>
+                  <td>patricia</td>
+                  <td>Jackson</td>
+                  <td>94</td>
+                </tr>
+                <tr>
+                    <td>Jixian</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+                <tr>
+                    <td>Jixian</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+                <tr>
+                    <td>asdcs</td>
+                    <td>adasdc</td>
+                    <td>asdc</td>
+                </tr>
+              </table>
+        </div>
+        
+            
+    </div>
+
+    <div id="instructions" class="page" style="display:none;">
+        <h1>How to Play</h1>
+        <p>Instructions go here...</p>
+    </div>
+
+    <div id="game" class="page" style="display:none;">
+        <h1>Game Page</h1>
+        <div id="gameScreen"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
