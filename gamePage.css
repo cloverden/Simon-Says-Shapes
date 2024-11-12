@@ -1,0 +1,31 @@
+.graphs{
+    display: flex;
+    justify-content: space-around; /* Evenly distribute shapes */
+    align-items: center;
+    height: 100vh;/* Full viewport height */
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 100px solid transparent;
+    border-bottom: 200px solid #666;
+    border-right: 100px solid transparent;
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+}
+
+.square {
+    background-color: #2196F3;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
