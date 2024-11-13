@@ -1,19 +1,21 @@
+h1{
+    font-size:50px;
+    text-align:center
+}
 .graphs{
     display: flex;
     justify-content: space-around; /* Evenly distribute shapes */
     align-items: center;
-    height: 100vh;/* Full viewport height */
+    margin: 20vh;
 }
 
 .triangle{
     width: 0;
     height: 0;
-    display: block;
     border-left: 100px solid transparent;
-    border-bottom: 200px solid #666;
+    border-bottom: 100px solid #9a1f0c;
     border-right: 100px solid transparent;
 }
-
 
 .circle {
     width: 100px;
@@ -29,3 +31,25 @@
     height: 100px;
     margin: 10px;
 }
+
+.startButton{
+    display:block;
+    background-color:rgb(41, 131, 145);
+    color: ivory;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;  
+    margin: 10vh auto;/* align (50vh)，justify (auto) */
+    font-size: 25px;
+}
+/*  */
+
+.timer{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(35, 30, 30);
+    text-align: right;
+    margin-right: 200px;
+}
+/* set a timer in css&html, not js */

@@ -12,19 +12,26 @@
     <nav>
         <a href="index.html">Home</a>
         <a href="instructions.html">Instructions</a>
-        <a href="game.html">Game</a>
+        <a href="gamePage.html">Game</a>
     </nav>
 
-    <h1>Game Page</h1>
-    <div id="gameScreen">
-        <p>This is where the game will be displayed.</p>
-    </div>
+    <h1>SIMON  SAYS</h1>
+
+    <div class="timer" id = "timer">Time:</div>
+    <!-- set a timer in css & html ,not the js -->
 
     <div class="graphs">
-        <div class="triangle"></div>
-        <div class="square"></div>
-        <div class="circle"></div>
+        <div id="1" class="triangle"></div>
+        <div id="2" class="square"></div>
+        <div id="3" class="circle"></div>
     </div>
+
+    <p id="message"></p>
     
+    <button class="startButton">START</button>
+
+    <!-- game a -->
+
+    <script src="gamePgae.js"></script>
 </body>
 </html>
