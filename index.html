@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Simon Says Shapes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="instructions.html">Instructions</a>
+        <a href="gamePage.html">Game</a>
+    </nav>
+
+    <h1>Welcome to Simon Says Shapes</h1>
+    
+    <!-- Input to get player name -->
+    <input type="text" id="playerName" placeholder="Enter your name">
+    <button onclick="savePlayerName()">Save Name</button>
+
+    <!-- Display scoreboard -->
+    <div id="scoreboard">
+        <h2>Scoreboard</h2>
+        <table id="scoreTable">
+            <thead>
+                <tr>
+                    <th>Player's Name</th>
+                    <th>Round</th>
+                    <th>Highest Score</th>
+                </tr>
+            </thead>
+            <tbody id="scoreTableBody">
+                <!-- Rows will be dynamically populated from localStorage -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
